@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: bisque;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    background: rgb(17, 108, 164);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background: #333;
+    position: sticky;
+    top: 0;
+    padding: 10px 10px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: maroon;
+}
+
+section{
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+    display: block;
+    margin-top: 10px;
+}
+
+.course-list{
+    background: #049382;
+    padding: 20px;
+}
+
+
+.steps{
+    background: #049382;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card{
+    border: 1px solid gray;
+    padding: 15px;
+    width: 200px;
+}
+
+.label{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    padding: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    background: rgb(13, 127, 198);
+    color: white;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
